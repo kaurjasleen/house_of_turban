@@ -1,2 +1,2 @@
 # house_of_turban
-A website built for House of Turban company. 
+A website being built for House of Turban company. 
