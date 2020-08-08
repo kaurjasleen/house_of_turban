@@ -1,23 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './assets/App.css';
+import Slider from './Slider';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/*<img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        This is the App.js file, which we will be using to display all pages.
+            These pages will import components and renders those that pertain to
+            them. To route to other pages, we will use Router, which is a React library.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <Slider />
       </header>
     </div>
   );

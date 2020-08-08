@@ -1,0 +1,5 @@
+.carouselImg{
+    max-height: 800px;
+    overflow: auto;
+    width: %100;
+}
