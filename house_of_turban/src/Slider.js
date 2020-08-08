@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import './assets/Slider.css';
 import emptyImg from "./assets/emptyImg.png";
 import logoHOT from "./assets/logoHOT.png";
-import roomies from "./assets/roomies.jpg";
 import pallette from "./assets/colorpallette.png";
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -33,20 +32,6 @@ class Slider extends Component {
             <p>This is the second slide's caption.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100 img-responsive carouselImg"
-            src={roomies}
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              This is the third slide's caption.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
         <Carousel.Item className="carouselItem">
           <img
             className="d-block w-100 img-responsive carouselImg"
@@ -55,9 +40,9 @@ class Slider extends Component {
           />
 
           <Carousel.Caption>
-            <h3>Fourth slide label</h3>
+            <h3>Third slide label</h3>
             <p>
-              This is the fourth slide's caption.
+              This is the third slide's caption.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
