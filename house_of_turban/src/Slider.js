@@ -8,6 +8,7 @@ import Carousel from 'react-bootstrap/Carousel';
 class Slider extends Component {
   render() {
     return (
+        <div>
       <Carousel>
         <Carousel.Item>
           <img
@@ -47,6 +48,7 @@ class Slider extends Component {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+  </div>
     );
   }
 }

@@ -1,14 +1,19 @@
-import React, { Component } from 'react';
-import Slider from './Slider';
-import ProductCard from './ProductCard';
+import React, { Component } from "react";
+import Slider from "./Slider";
+import ProductCard from "./ProductCard";
+import { Container, Row } from "react-bootstrap";
 
 class HomePage extends Component {
   render() {
     return (
-     <div>
-        <Slider />
-        <ProductCard />
-     </div>
+      <Container fluid>
+        <Row>
+          <div>
+            <Slider />
+            <ProductCard />
+          </div>
+        </Row>
+      </Container>
     );
   }
 }
