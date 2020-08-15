@@ -6,7 +6,7 @@ import HomePage from './HomePage';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import ItemPage from './ItemPage';
-import Register from './Register'
+import Login from './Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
         <Router>
             <HomePage path="/"/>
             <ItemPage path='/ItemPage'/>
+            <Login path='/Login'/>
         </Router >
         <Footer />
 

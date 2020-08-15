@@ -11,6 +11,8 @@ class NavBar extends Component {
       <Nav className="mr-auto">
         <Link to='/' className="nav-link">Home</Link>
         <Link to='/ItemPage' className="nav-link">ItemPage</Link>
+        <Link to='/Login' className="nav-link">My Account</Link>
+
       </Nav>
       <Form inline>
         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
