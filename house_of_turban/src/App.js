@@ -6,6 +6,7 @@ import HomePage from './HomePage';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import ItemPage from './ItemPage';
+import Register from './Register'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
