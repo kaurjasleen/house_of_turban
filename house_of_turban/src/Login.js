@@ -1,35 +1,119 @@
 import React, { Component } from "react";
-import { Form, Button } from 'react-bootstrap';
-import './assets/Login.css';
+import { Form } from 'react-bootstrap';
 
-class Login extends Component{
-	render(){
-		return(
-			<div>
-      <Form id="loginForm">
-        <Form.Group controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
-          <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-          </Form.Text>
-        </Form.Group>
+class Login extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      displayName: '',
+      email: '',
+      passOne: '',
+      passTwo: '',
+      errorMessage: null
+    };
 
-        <Form.Group controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
-        </Form.Group>
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
 
-        <Form.Group controlId="formBasicCheckbox">
-          <Form.Check type="checkbox" label="Remember me" />
-        </Form.Group>
-        <Button variant="primary" type="submit">
-          Login
-        </Button>
-      </Form>
-			</div>
-		);
-	}
+  handleChange(e) {
+    const itemName = e.target.name;
+    const itemValue = e.target.value;
+
+    this.setState({ [itemName]: itemValue }, () => {
+      if (this.state.passOne !== this.state.passTwo) {
+        this.setState({ errorMessage: 'Passwords no not match' });
+      } else {
+        this.setState({ errorMessage: null });
+      }
+    });
+  }
+
+  handleSubmit(e) {
+    var registrationInfo = {
+      displayName: this.state.displayName,
+      email: this.state.email,
+      password: this.state.passOne
+    };
+    e.preventDefault();
+
+  //   firebase
+  //     .auth()
+  //     .createUserWithEmailAndPassword(
+  //       registrationInfo.email,
+  //       registrationInfo.password
+  //     )
+  //     .then(() => {
+  //       this.props.registerUser(registrationInfo.displayName);
+  //     })
+  //     .catch(error => {
+  //       if (error.message !== null) {
+  //         this.setState({ errorMessage: error.message });
+  //       } else {
+  //         this.setState({ errorMessage: null });
+  //       }
+  //     });
+  }
+
+  render() {
+    return (
+      <form className="mt-3" onSubmit={this.handleSubmit}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="card bg-light">
+                <div className="card-body">
+                  <h3 className="font-weight-light mb-3">Login</h3>
+                  <div className="form-row">
+                    {this.state.errorMessage !== null ? (
+                      {/*<FormError
+                        theMessage={this.state.errorMessage}
+                      />*/}
+                    ) : null}
+                  <section className="form-group">
+                    <label
+                      className="form-control-label sr-only"
+                      htmlFor="email"
+                    >
+                      Email
+                    </label>
+                    <input
+                      className="form-control"
+                      type="email"
+                      id="email"
+                      placeholder="Email Address"
+                      required
+                      name="email"
+                      value={this.state.email}
+                      onChange={this.handleChange}
+                    />
+                  </section>
+                  <div className="form-row">
+                    <section className="col-sm-6 form-group">
+                      <input
+                        className="form-control"
+                        type="password"
+                        name="passOne"
+                        placeholder="Password"
+                        value={this.state.passOne}
+                        onChange={this.handleChange}
+                      />
+                    </section>
+                  </div>
+                  <div className="form-group text-right mb-0">
+                    <button className="btn btn-primary" type="submit">
+                      Login
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+					</div>
+					</div>
+      </form>
+    );
+  }
 }
 
 export default Login;
