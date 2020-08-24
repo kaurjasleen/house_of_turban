@@ -1,0 +1,181 @@
+{
+  "itemsInfo": [
+      {
+        "id": 0,    "details": "add item's description here, wide leg pants",
+
+        "name": "Product Name",
+        "price": 20,
+        "desc": ["Wash with hand", "cold wash", "100% cotton"],
+        "sizes": ["s", "m", "l"],
+        "colors": ["blue", "lightblue", "green"],
+        "rating": 5
+      },{
+      "id": 1,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["S", "M", "L"],
+      "colors": ["yellow", "blue", "purple"],
+      "rating": 5
+    },{
+      "id": 2,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["green", "blue", "purple"],
+      "rating": 4
+    },{
+      "id": 3,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["pink", "blue", "purple"],
+      "rating": 2
+    },{
+      "id": 4,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["black", "blue", "red"],
+      "rating": 1
+    },{
+      "id": 5,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["white", "blue", "black"],
+      "rating": 2
+    },{
+      "id": 6,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["pink", "blue", "purple"],
+      "rating": 5
+    },{
+      "id": 7,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["grey", "blue", "purple"],
+      "rating":5
+    },{
+      "id": 8,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["lightblue", "blue", "purple"],
+      "rating":2
+    },{
+      "id": 9,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["purple", "blue", "red"],
+      "rating":3
+    },{
+      "id": 10,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["black", "pink", "purple"],
+      "rating":5
+    },{
+      "id": 11,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["yellow", "blue", "purple"],
+      "rating":2
+    },{
+      "id": 12,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["white", "blue", "black"],
+      "rating":4
+    },{
+      "id": 13,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["black", "pink", "purple"],
+      "rating":4
+    },{
+      "id": 14,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["yellow", "grey", "purple"],
+      "rating":5
+    },{
+      "id": 15,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["white", "red", "pink"],
+      "rating":1
+    },{
+      "id": 16,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["black", "white", "purple"],
+      "rating":1
+    },{
+      "id": 17,
+      "details": "add item's description here, wide leg pants",
+      "name": "Product Name",
+      "price": 20,
+      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "sizes": ["s", "m", "l"],
+      "colors": ["green", "blue", "yellow"],
+      "rating":5
+    },{
+      "id": 18,
+      "details": "add item's description here, wide leg pants",
+      "name": "yellow",
+      "sizes": ["s", "m", "l"],
+      "colors": ["yellow", "black", "purple"],
+      "rating":4
+    },{
+      "id": 19,
+      "details": "add item's description here, wide leg pants",
+      "name": "yellow",
+      "sizes": ["s", "m", "l"],
+      "colors": ["white", "black", "lightgrey"],
+      "rating":3
+    }
+  ]
+}

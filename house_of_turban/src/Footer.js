@@ -4,15 +4,10 @@ import { Card, Button, Form, FormControl} from 'react-bootstrap';
 class Footer extends Component {
   render() {
     return (
-<<<<<<< HEAD
-    	<Card className="text-center" className="body-spacing">
-  <Card.Header>House Of Turban</Card.Header>
-=======
     	<Card >
       <br/>
       <br/>
   <Card.Header className="text-center">House Of Turban</Card.Header>
->>>>>>> 099fa36f55c314a15a714c40c04aaa6721066395
   <Card.Body>
     <Card.Title>----Some info about house of tuban----</Card.Title>
     <Card.Text>

@@ -16,7 +16,7 @@ function App() {
         <NavBar />
         <Router>
             <HomePage path="/"/>
-            <ItemPage path='/ItemPage'/>
+            <ItemPage path='/ItemPage' />
             <Login path='/Login'/>
             <Register path='/Register'/>
 

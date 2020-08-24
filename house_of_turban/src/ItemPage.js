@@ -8,7 +8,8 @@ class ItemPage extends Component {
   render() {
     return (
      <div>
-        <Item />
+        <Item index={1}/>
+        <h1>Similar Products</h1>
         <ProductCard />
 
      </div>

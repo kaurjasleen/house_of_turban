@@ -2,7 +2,7 @@ let express = require("express");
 let app = express();
 var bodyParser = require('body-parser');
 const port = 8080;
-var itemInfo = require('./src/itemInfo.json');
+var itemsInfo = require('./src/itemsInfo.json');
 
 app.use(bodyParser.urlencoded({
   extended: true
@@ -14,12 +14,12 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.get('/api/itemInfo', function(req, response) {
-    const data = students;
+app.get('/api/itemsInfo', function(req, response) {
+    const data = itemsInfo;
     response.setHeader('Content-Type', 'application/json');
     response.status(200).send(data);
 
-})
+});
 
 var listener = app.listen(port, function () {
   console.log('Listening on port ' + listener.address().port);
