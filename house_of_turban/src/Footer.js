@@ -5,7 +5,7 @@ import { Card, Button} from 'react-bootstrap';
 class Footer extends Component {
   render() {
     return (
-    	<Card className="text-center">
+    	<Card className="text-center" className="body-spacing">
   <Card.Header>House Of Turban</Card.Header>
   <Card.Body>
     <Card.Title>Special title treatment</Card.Title>
@@ -22,4 +22,3 @@ class Footer extends Component {
 }
 
 export default Footer;
-

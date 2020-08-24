@@ -4,7 +4,7 @@ import { CardDeck, Card } from 'react-bootstrap';
 class ProductCard extends Component {
   render() {
     return (
-      <CardDeck>
+      <CardDeck className="body-spacing"> 
         <Card>
           <Card.Img variant="top" src="holder.js/100px160" />
           <Card.Body>
