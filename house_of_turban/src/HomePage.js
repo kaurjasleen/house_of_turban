@@ -10,6 +10,9 @@ class HomePage extends Component {
 
           <div>
             <Slider />
+            <br/>
+            <br/>
+            <p>Featured Products</p>
             <ProductCard />
           </div>
 

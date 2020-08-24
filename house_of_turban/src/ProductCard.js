@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import { CardDeck, Card } from 'react-bootstrap';
+import SampleImg from "./assets/SampleImg.jpeg";
 
 class ProductCard extends Component {
   render() {
     return (
-      <CardDeck className="body-spacing"> 
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+      <CardDeck>
+
+        <Card xs={4} md={3} >
+          <Card.Img variant="top" src={SampleImg} />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>
@@ -19,8 +21,8 @@ class ProductCard extends Component {
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+        <Card xs={4} md={3}>
+          <Card.Img variant="top" src={SampleImg} />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>
@@ -31,9 +33,9 @@ class ProductCard extends Component {
           <Card.Footer>
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+        </Card >
+        <Card xs={4} md={3}>
+          <Card.Img variant="top" src={SampleImg} />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>
@@ -46,7 +48,22 @@ class ProductCard extends Component {
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Footer>
         </Card>
+        <Card xs={4} md={3}>
+          <Card.Img variant="top" src={SampleImg} />
+          <Card.Body>
+            <Card.Title>Card title</Card.Title>
+            <Card.Text>
+              This card has supporting text below as a natural lead-in to
+              additional content.{" "}
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </Card.Footer>
+        </Card >
+
       </CardDeck>
+
     );
   }
 }
