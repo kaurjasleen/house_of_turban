@@ -13,6 +13,7 @@ class NavBar extends Component {
         <Link to='/ItemPage' className="nav-link">ItemPage</Link>
         <Link to='/Login' className="nav-link">My Account</Link>
         <Link to='/Register' className="nav-link">Register</Link>
+        <Link to='/AllProducts' className="nav-link">Products</Link>
 
       </Nav>
       <Form inline>

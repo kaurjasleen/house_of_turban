@@ -7,7 +7,8 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 import ItemPage from './ItemPage';
 import Login from './Login';
-import Register from './Register'
+import Register from './Register';
+import AllProducts from './AllProducts';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -15,10 +16,12 @@ function App() {
     <div>
         <NavBar />
         <Router>
+
             <HomePage path="/"/>
             <ItemPage path='/ItemPage' index={1}/>
             <Login path='/Login'/>
             <Register path='/Register'/>
+            <AllProducts path='/AllProducts'/>
 
         </Router >
         <Footer />

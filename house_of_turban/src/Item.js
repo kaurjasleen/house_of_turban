@@ -15,7 +15,6 @@ id's start from 0 (like array index)
 
 class Item extends Component {
   render() {
-    const item = this.props.itemData;
     return this.props.itemData ? (
       <Container>
         <Row>
@@ -47,8 +46,6 @@ class Item extends Component {
             <div>
               <p>Colors</p>
               {this.props.itemData.colors.map((background, index) => {
-                console.log({ background });
-
                 return (
                   <span className="circle" style={{ background }} key={index}>
                     {" "}

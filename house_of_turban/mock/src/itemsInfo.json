@@ -1,8 +1,8 @@
 {
   "itemsInfo": [
       {
-        "id": 0,    "details": "add item's description here, wide leg pants",
-
+        "id": 0,
+        "details": "add item's description here, wide leg pants",
         "name": "Product Name",
         "price": 20,
         "desc": ["Wash with hand", "cold wash", "100% cotton"],
@@ -14,7 +14,7 @@
       "details": "add item's description here, wide leg pants",
       "name": "Product Name",
       "price": 20,
-      "desc": ["Wash with hand", "cold wash", "100% cotton"],
+      "desc": ["Wash with hand", "cold wash", "100% cotton", "testing testing"],
       "sizes": ["S", "M", "L"],
       "colors": ["yellow", "blue", "purple"],
       "rating": 5
