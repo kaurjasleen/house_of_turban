@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "./Slider";
 import ProductCard from "./ProductCard";
 import Footer from "./Footer";
-import { Container, Row } from "react-bootstrap";
+import { CardColumns, Container, Row } from "react-bootstrap";
 
 class HomePage extends Component {
   render() {
@@ -13,7 +13,11 @@ class HomePage extends Component {
             <br/>
             <br/>
             <p>Featured Products</p>
-            <ProductCard />
+            <CardColumns>
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+            </CardColumns>
           </div>
 
     );
