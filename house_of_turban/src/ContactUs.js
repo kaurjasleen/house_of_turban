@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './assets/contact.css'
+import './assets/style1.css'
 
 class ContactUs extends Component{
     constructor(props) {
