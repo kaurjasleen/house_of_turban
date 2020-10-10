@@ -9,6 +9,7 @@ import ItemPage from './ItemPage';
 import Login from './Login';
 import Register from './Register';
 import AllProducts from './AllProducts';
+import ContactUs from './ContactUs';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
             <Login path='/Login'/>
             <Register path='/Register'/>
             <AllProducts path='/AllProducts'/>
-
+            <ContactUs path='/ContactUs'/>
         </Router >
         <Footer />
 
